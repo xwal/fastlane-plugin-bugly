@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'chaosky.me@gmail.com'
 
   spec.summary       = 'Upload dSYM to bugly.'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-bugly"
+  spec.homepage      = "https://github.com/chaoskyme/fastlane-plugin-bugly"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
