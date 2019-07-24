@@ -61,12 +61,6 @@ module Fastlane
           req.body = params
         end
 
-        info = response.body
-
-        if info['rtcode'] != 0
-          UI.user_error!("Bugly Plugin Error: #{info['msg']}")
-        end
-
         UI.success "Upload success."
       end
 
